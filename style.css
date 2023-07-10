@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{ 
+    background: #e8e6e7;
+}
+
+.nav-bar {
+    background-color: rgb(2, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.logo img {
+    width: 50px;
+    margin-left: 70px;
+}
+
+.itens {
+    margin-right: 70px;
+}
+.itens ul{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+}
+
+.itens ul a {
+    text-decoration: none;
+    color: #888;
+    font-weight: 600;
+    padding-bottom: 4px;
+    transition: all 0.5s ease-in-out;
+}
+
+.itens ul a:hover{
+    color: #fff;
+    border-bottom: 1px solid #FFF;
+}
+
+.itens .check {
+    border-bottom: 1px solid #FFF;
+    color: #fff;
+}
+
+/*MAIN*/
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+.text {
+    padding: 10px;
+    margin-left: 120px;
+}
+
+.text img {
+    width: 15rem;
+    margin-bottom: 3vh;
+}
+
+.text h2 {
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+}
+
+.text p {
+    margin-bottom: 1.5rem;
+}
+
+.text h5 {
+    color: #999;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.text .btn {
+    padding: 10px 25px;
+    background: #0071e3;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.text .btn:hover {
+    opacity: .85;
+}
+
+.text .text h5 {
+    font-size: 1rem;
+    color: #444;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.text .content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text .content span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px #888;
+    transition: all 0.5s;
+}
+
+.text .content span:hover{
+    opacity: .80;
+}
+
+#green{
+    background: #384937;
+}
+#pink {
+    background: #f8ddd6;
+}
+#blue {
+    background: #225f7e;
+}
+#black {
+    background: #192028;
+}
+#White {
+    background: #f7f2ee;
+}
+#red {
+    background: #ae0617;
+}
+
+.iPhone-img{
+    transition: all 1s ease;
+    z-index: 100;
+}
+
+.iPhone-img img{
+    width: 500px;
+    transform: rotate(-7deg);
+    margin-right: 25px;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #445c42;
+    clip-path: circle(800px at right 1000px);
+}

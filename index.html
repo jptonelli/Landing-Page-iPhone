@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="shortcut icon" href="img/Apple_logo.png" type="image/x-icon">
+    <title>iPhone 13</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <div class="logo">
+                    <img src="img/Apple_logo.png" alt="logo">
+                </div>
+                    <div class="itens">
+                        <ul><a href="#">Mac</a></ul>
+                        <ul><a href="#">iPad</a></ul>
+                        <ul><a href="#" class="check">iPhone</a></ul>
+                        <ul><a href="#">Watch</a></ul>
+                        <ul><a href="#">AirPods</a></ul>
+                        <ul><a href="#">Só na Apple</a></ul>
+                        <ul><a href="#">Suporte</a></ul>
+                    </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="text">
+                <img src="img/iPhone_name.png" alt="iPhone_13">
+                <h2>Seu novo superpoder</h2>
+                <p>Chip com velocidade impressionante. Um aumento notável na duração da bateria. E novos recursos de foto e vídeo. <br>
+                No iPhone 13, você faz coisas que nunca pôde. Disponível em dois tamanhos.</p>
+                <h5>A partir de R$ 6.599</h5>
+                <a href="#" class="btn">Comprar</a>
+                <div class="text">
+                    <h5>Escolha sua cor favorita:</h5>
+                </div>
+                <div class="content">
+                    <span id="green" onclick="trocarCor('img/iPhone_green.png'); trocarCorCírculo('#445c42')"></span>
+                    <span id="pink" onclick="trocarCor('img/iPhone_pink.png'); trocarCorCírculo('#f8ddd6')"></span>
+                    <span id="blue" onclick="trocarCor('img/iPhone_blue.png'); trocarCorCírculo('#225f7e')"></span>
+                    <span id="black" onclick="trocarCor('img/iPhone_black.png'); trocarCorCírculo('#192028')"></span>
+                    <span id="white" onclick="trocarCor('img/iPhone_white.png'); trocarCorCírculo('#f7f2ee')"></span>
+                    <span id="red" onclick="trocarCor('img/iPhone_red.png'); trocarCorCírculo('#ae0617')"></span>
+                </div>
+            </div>
+            <div class="iPhone-img">
+                <img src="img/iPhone_green.png" alt="iPhone" id="phone">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
